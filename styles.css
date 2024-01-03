@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+img {
+    width: 225px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+header .container {
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar  ul {
+    display: flex;
+    gap: 10px;
+}
+
+.main {
+    flex-grow: 1;
+    background-color: #4067a4;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #261b51;
+}
+
+.footer {
+    text-align: center;
+    background-color: #261b51;
+    color: #f4f4f4;
+}
+
+.drawPad {
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 600px;
+    border: black solid 2px;
+    margin-left: 10px;
+    background-color: #f4f4f4;
+    overflow: hidden; /* hides any overflow */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #f4f4f4;
+}
+
+.settings p:first-child {
+    color: aqua;
+}
+
+main .container {
+    display: flex;
+    color: #f4f4f4;
+}
+
+output.output {
+    display: inline;
+}
+
+.drawPad div {
+    
+    margin: 0;
+    padding: 0;
+}

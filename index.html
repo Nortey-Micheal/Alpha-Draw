@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Alpha-Draw</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <img src="newlogo.svg" alt="Maker's Logo">
+            <div class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <h1>Alpha-Draw</h1>
+        <div class="container">
+            <div class="settings">
+                <p>Select grid range</p>
+                <input type="range" min="4" step="4" max="100"  id="input">
+                <p>Grids are: <output class="output"></output></p>
+            </div>
+            <div class="drawPad"></div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>Copyright © 2024. Project Alpha</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
