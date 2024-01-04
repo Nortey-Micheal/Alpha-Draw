@@ -106,3 +106,21 @@ output.output {
     color: #f4f4f4;
     font-size: large;
 }
+
+/* media queries */
+
+@media (max-width: 800px) {
+    .main .container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .drawPad {
+        width: 400px;
+        height: 400px;
+        margin-bottom: 20px;
+    }
+
+    .settings button {
+        margin-top: 20px;
+    }
+}

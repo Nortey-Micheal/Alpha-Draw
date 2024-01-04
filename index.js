@@ -16,7 +16,8 @@ randomCol.addEventListener("click",ranColor)
 input.addEventListener("input" , grid)
 var grids
 
-drawPad.addEventListener("mouseover" , addColor)
+drawPad.addEventListener("mouseover" , addColor);
+// drawPad.addEventListener("touchstart" , addColor);
 // function to add color
 function addColor(event) {
     if (event.target !== drawPad) {
