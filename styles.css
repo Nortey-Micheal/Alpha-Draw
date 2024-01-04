@@ -94,3 +94,15 @@ output.output {
     margin: 0;
     padding: 0;
 }
+
+.settings {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.randomCol {
+    background-color: #261b51;
+    color: #f4f4f4;
+    font-size: large;
+}

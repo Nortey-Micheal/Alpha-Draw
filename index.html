@@ -23,9 +23,19 @@
         <h1>Alpha-Draw</h1>
         <div class="container">
             <div class="settings">
-                <p>Select grid range</p>
-                <input type="range" min="4" step="4" max="100"  id="input">
-                <p>Grids are: <output class="output"></output></p>
+                <div>
+                    <p>Select grid range</p>
+                    <input type="range" min="4" step="4" max="100"  id="input">
+                    <p>Grids are: <output class="output"></output></p>
+                </div>
+                <div>
+                    <p>Choose a color:</p>
+                    <input type="color" id="color">
+                </div>
+                <div>
+                    <p>For random colors:</p>
+                    <button class="randomCol">Rainbow colors</button>
+                </div>
             </div>
             <div class="drawPad"></div>
         </div>
